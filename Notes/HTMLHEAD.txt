@@ -1,0 +1,38 @@
+WHAT IS THE HTML HEAD?
+-Heads job is to contain metada
+
+Adding a title
+-<title> adds a title to the element in action. This can be seen in the tab, it can get confused
+with the <h1></h1>
+-<h1> refers to the top level heading to the body of content, should only be used once per page
+-<title> also fills the contents on bookmarks
+
+METAdata: the <meta> element
+-utf-8 is a universal character set that includes every character for human language
+-Characters from Japanese can mess up the page rendering if set to ISO-8859-1
+-Browsers like chrome can automatically fix incorrect encodings, but utf-8 is standard practice
+
+
+Adding an author and description
+-meta tag includes name and content attributes
+-name attribute specifies the type of meta element it is and what type of information it
+contains
+-content attribute specifies the actual met content
+-specifying the author can help if users have questions regarding the content
+-specifying a description within the content can help with search engine optimization
+
+Other types of metadata
+-Open Graph Data invented by Facebook, displays an image a name and description
+-Twitter has made similar with twitter cards
+
+
+Adding custom icons to your website
+-favicons are short for favorite icons, refering to favorites and bookmark icon
+
+APPLYING CSS AND JAVASCRIPT TO HTML
+-CSS is for styling and Javascript is to power interactive functionality
+-To link CSS use the <link> element and To link the Javascript element is the <script>
+-Script tag should include a src attribtute, while link tag should have href
+-defer attribute instructs the browser to make sure all the HTML is loaded before javascript
+runs. It is the most foolproof way to make sure your javascript works on your page
+ 

@@ -1,0 +1,63 @@
+CREATING hyperlinks
+
+What is a hyperlink?
+-Its what makes the web a web, allows us to link documents to other documents or make apps
+avaliable at a web address
+
+Anatomy of a link
+-a basic link is created by wrapping the text or other content inside an a tag using the href
+attribute
+	
+	Adding supporting information with the title attribute
+	-The title contains additional information about the link, like the information that
+	the link contains or things to be aware of on the web site
+	-Can be seen when the mouse hovers over the link
+
+	Block level links
+	-Almost any content can be made into a link
+	-Just wrap the a tag in an img tag
+
+A quick primer on URLS and paths
+-A URL or Uniform Resource Locator is a string of text that defines where something is located
+on the web.
+-URls use paths to find files. Paths specify where the file of interest is located.
+-If there is a file in the same directory, you can just reference the file name within the link
+-If there is a file in a subdirectory the file path would be the directory_name/file_name
+-If the there is file being reference in a previous directory the file path would be ../file_name
+
+
+Document fragments
+-Its possible to link to a specific part of the HTML document, known as a document fragment
+-To achieve this first assign an id to the heading or element, then reference the id name 
+in the href. (Example: href="#name")
+
+Absolute versus relative URLs
+-Absolute location points to its absolute location, it includes protocol and domain name
+-Relative location points to the objects to the location relative to its current location
+
+Link best practices
+
+Use clear link wording
+-Make sure the content within the a tag matches the function of the link for accessibility
+-Search engines use link text to index target files, essential for SEO
+-Don't repeat URL as part of the link text
+-Don't say link or links to, its just noise
+-Avoid having duplicate link texts for different file paths
+
+Linking to non-HTML resources -- leave clear signposts
+-You should be adding clear wording to downloads to avoid any confusion
+
+
+Use the download attribute when linking to a download
+-The download attribute works by having download right next to the a tag, followed by
+what you want to call the file being downloaded
+
+Email links
+-Its possible to open a new outgoing email message through a link
+-This is done by the mailto: URL scheme. Example <a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+-Just by having mailto: is enough to open the external email
+
+
+
+
+

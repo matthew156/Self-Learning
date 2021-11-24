@@ -1,0 +1,63 @@
+HTML text fundamentals
+
+The basics: headings and paragraphs
+-<h> tags are headings
+-<p> tags are paragraphs
+-headings have a hierarchy of 1-6
+	
+	Implementing structure and hierarchy
+	-You should only use 1 h1
+	-don't use h2 as a subheading for h3 as it breaks hiearchy order
+	-You should only aim to use three headings per page
+	
+
+	Why do we need structure?
+	-So the browser knows how to correctly display the information
+	-Most users spend a relatively short time on the web page
+	-Search engines consider headings as important keywords in websites
+	-Makes it accessible to visually impaired people
+	-if there is structure javascript and css can connect well with the website
+	
+
+	Why do we need Semantics?
+	-To give our content the most correct meaning and function
+	-Using the span tag gives our content no semantics and is perfect for just style
+
+Lists
+
+	Unordered
+	-Makes bullet points on for the list
+	-tag is <ul></ul>
+	-each bullet point should contain a <li></li>
+	
+	Ordered
+	-Great for making a numbered list
+	-<ol></ol> is the tag
+	-<li> is still used for list structure
+
+	Nesting lists
+	-if you want sub bullet points, nesting your list is the way to go
+	-you can do this with ordered or unordered lists
+
+Emphasis and importance
+
+	Emphasis
+	-Used to stress certain words through italics
+	-The tag is <em></em>
+	-These are recognized by screen readers and it will say the word emphasized in a different
+	tone.
+	-You should not use this just for the italics, style the span element instead
+
+	Strong importance
+	-If you want emphasize important words and place it in bold text
+	-The is the <strong></strong> tag
+	-You should not use this just for bold text, style the span element instead
+
+	Italic, bold, underline
+	-The strong and emphasis have a clearcut associated semantics
+	-The <b>, <i>, and <u> cane about when CSS was poorly supported
+	-You should use these only for styling purposes as it does not contain any semantics
+	for accessibility
+
+
+	

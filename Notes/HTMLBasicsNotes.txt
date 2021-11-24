@@ -1,0 +1,60 @@
+What is HTML?
+-Stands for Hyper Text Markup Language
+-Functions mainly through tags <>
+-The first tag indicates where the element starts (opening tag)
+-The second tag indicates where the element ends (ending tag)
+-Content is what is in between the start and end
+-Opening, content, and Ending tag is what makes the element
+-Attribute contain extra information about the element (example: class and id)
+-Attributes should contain space between it and the element name (or different attribute),
+the attribute name should be followed by an equal sign, and the attribute value should have
+quotation marks
+
+
+Nesting elements
+-This is when another element is within an element
+-Make sure nested element is closed in the element
+
+
+
+Empty elements
+-Tags like the img element do not have a closing tag
+-This is because the img does not wrap content around it ie there is no content in the tag
+
+
+Anatomy of an HTML document
+-<!DOCTYPE html> is the doctype, meant to link to a set of rules that the HTML page has to 
+follow to be considered good HTML. Example automatic error checking
+-<html></html> wraps all content for the page and is also known as the root element
+-<head></head> serves as a container for everything you want to be on the HTML page that
+is not the content you are showing to your page's viewers
+-The head tag is good for holding keywords that you are looking for to make a search engine pick up from
+using the meta tag, also for page description, CSS, and character set declarations
+-<meta charset="utf-8"> sets the character set of the document. UTF-8 includes most characters
+-<title></title> handles the title displayed on the webpage
+-<body></body> is where all of the content is stored
+
+
+Images
+-src attribute within the img tag should display the file path in the img
+-alt attribute should be descriptive as they are often used by people with visual impairments
+
+
+
+MARKING UP TEXT
+Headings
+-Headings are what the name implies <h1></h1> -<h6></h6>
+-You should often use <h3/> and <h4/> tags, using <h1> just to make things bigger and bold is 
+considered bad pracctice as it often neglects SEO and accessibility
+
+
+Lists
+-There are 2 kinds of list elements <ul> and <ol>
+-<li> </li> should be nested within the elements
+
+
+Links
+-You can create links with the <a></a> tag
+-To link have the attribute href and have the link to another page
+
+
