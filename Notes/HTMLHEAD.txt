@@ -19,6 +19,7 @@ Adding an author and description
 contains
 -content attribute specifies the actual met content
 -specifying the author can help if users have questions regarding the content
+-to add an author add the name="author" content="authors name"
 -specifying a description within the content can help with search engine optimization
 
 Other types of metadata

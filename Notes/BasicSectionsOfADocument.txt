@@ -1,0 +1,63 @@
+Basic sections of a document
+
+header:
+-usually a big strip across the top with a big heading, log and perhaps a 
+tagline
+
+navigation bar:
+-should link to the site's main sections; usually represented by menu buttons, links, or tabs
+-its better to separate content into this section for accessibility
+
+main content:
+-Unique content for each page
+-Varies page to page 
+
+sidebar:
+-Contains peripheral info, links, quotes, ads, etc.
+-May contain author's bio, or links related to the article
+
+footer:
+-A strip across the bottom of the page that generally contains fine print, copyright notices,
+or contact info.
+-Sometimes serves SEO purposes
+
+HTML for structuring content
+-Every developer should respect the semantics used with each HTML element
+-This is so that visually impaired can have a similar experience on the page
+-One can mark up sections of content based on functionality to make things more accessible
+	Examples:
+		-header: <header>
+		-navigation bar: <nav>
+		-main content: <main> 
+			-<article>
+			-<section>
+			-<div>
+		-sidebar: <aside>
+		-footer: <footer>
+
+
+
+HtML layout elements in more details
+
+-<main> is for content unique to the page. Use <main> once per page and make sure it is 
+nested with other elements
+-<article> encloses a block of related content that make sense of its own without the rest
+of the page
+-<section> is similar to <article>, but its for a part of a different part of the page
+-best practice to have a heading nested in a <section>
+-<aside> contains content that is not directly
+ related to the main content but can provide
+additional information (Note this is the sidebar...)
+-<header> represents a group of introductory content
+-when <header> is the child of a body element it is a global header for the webpage
+-when <header> is the child of a article or section it defines a specific header for the section
+-<nav> contains the main navigation functionality for the page
+
+Non-semantic wrappers
+-<div> and <span> tags are examples of non-semantic wrappers
+-<div> is a block-level element
+-<span> is a inline-level element
+
+Line breaks and horizontal rules
+-<br> will cause a line break within a <p> tag which is useful for
+-<hr> will cause a line break and create a horizontal line across the page

@@ -1,0 +1,53 @@
+Advanced text formatting
+-Goes over less known HTML elements
+
+
+Description lists
+-description lists are a special way of formatting text, to begin wrap the text in a <dl></dl>
+-to add a term use the <dt></dt> tag
+-to add a description to the term add a <dd></dd> tag
+-It is possible to have multiple descriptions for one term
+
+Quotations
+
+	Blockquotes
+	-If a good section of content is quoted from somewhere else block contents come in 
+	handy
+	-Use the <blockquote></blockquote> element to create a block quote and add the cite
+	attribute
+
+	Inline quotations
+	-Inline quotations work the same way as block quotes
+	-uses the <q></q> tag
+
+	Citations:
+	-Not as useful as they sound due accessibility issues
+	-The <cite></cite> tag is used for quoting the title of a book
+		
+
+Abbreviations
+-Abbreviations can be created with the <abbr></abbr> tag and can be used to describe an 
+abbreviation when hovered over
+-To provide a full description of the abbreviation use the title attribute
+
+Marking up contact details
+-The <address></address> tag can hold contact information
+-This element is most appropiately used as footers for webpages
+
+Superscript and subscript
+-The <sup></sup> tag can wrap text into a superscript format
+-The <sub></sub> tag can wrap text into a subscript format
+
+Representing computer code
+-<code> tag can be used for formating generic computer code
+-<pre> tag is used for retaining white space (code blocks, especially important for python...)
+-<var> tag is for marking variables
+-<kbd> tag is used for marking keyboard inputs into the computer
+-<samp> tag is for marking up the output of a computer program
+
+Marking up times and dates
+-The <time> tag is used for marking up times and dates for accessibility purposes
+-The time element should be followed up by a datetime attribute, this makes it so that the
+date and time is universal across languages and locations.
+
+
