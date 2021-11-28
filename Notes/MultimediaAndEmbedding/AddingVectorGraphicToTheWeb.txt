@@ -1,0 +1,9 @@
+Adding vector graphic to the web
+-Raster images are defined using a grid of pixels, popular formats are .bmp, .png, .jpg, .gif
+-Vector images are defined using algorithms contains shape and path definitions
+
+
+What is SVG
+-SVG is an xml-based language for describing vector images
+-Most people use a vector graphics editor like inkscape and illustrator
+-People choose raster over vector if they want a smaller and simplet file

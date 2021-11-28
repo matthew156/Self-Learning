@@ -1,0 +1,37 @@
+Images in HTML
+
+How do we put an image on a webpage?
+-The <img> tag is an empty element meaning it does not have a closing tag
+-Without attributes the <img> tag would be useless.
+-To embed an image use the src attribute
+-NEVER pull from an existing website unless you own the image or the image is public domain, as it is illegal (known as hotlinking)
+
+
+Alternative text
+-The alt attribute is used on image to display text if for whatever reason the image is not
+appearing
+-Great for accessibility with visually impaired people or people using text only browsers
+-Great for SEO
+-In case if users have turned off images to reduce data transfer
+-Things to consider for the alt attribute: Decoration, Content, Link, and Text
+
+
+Width and height
+-The width and height on images are manageable due to the width and height attribute
+-Sometimes the browser will leave space for the image if it has not fully loaded yet
+-When adjusting the height and width, keeping everything in respect to its correct aspect
+ratio is essential
+
+Image titles
+-Adding the title attribute to images makes the image display supporting information when
+the image is hovered over
+-It is not reccomended due to the accesibility issues linked with the title attribute
+
+
+Annotating images with figures and figure captions
+-<p> tags across images are okay to use as captions, but semantically speaking, there is
+nothing linking the description to the picture
+-<figcaption> element allows the description to be linked to the picture, which is much better
+in terms of accessibility
+-Use the <figure> tag and have the <img> and <figcaption> tag nested within it.
+

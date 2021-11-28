@@ -1,0 +1,21 @@
+From object to iframe- other embedding technologies
+-<iframe> is commonly used with YouTube and Google Maps
+-Basic essentials to use <iframe>:
+	-border: none (highly reccomended)
+	-allowfullscren: if set allows the iframe to take up the whole screen
+	-src: same as the <video> and <img> 
+	-Height and Width
+	-sandbox: reccomended because it allows heightened security settings
+
+
+
+Security concerns
+-<iframes> can be used to expose user's personal information, if handled carelessly
+-Only embed when necessary when using other third party content
+-Use HTTPS: encrypted version of HTTP
+-Always use the sandbox aattribute: never add both allow-scripts and allow-same-origin
+-Configure CSP directives:
+
+
+The <embed> amd <object> elements
+-These are not used often except for embedding plugin content

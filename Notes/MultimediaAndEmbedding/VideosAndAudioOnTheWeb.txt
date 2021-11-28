@@ -1,0 +1,69 @@
+Video and audio on the web
+-HTML did not have any video or audio implementation until HTML 5
+-Flash and Silverlight filled these roles before HTML 5
+-<video> and <audio> elements were used to embed audio and video files, these were built using
+the new JavaScript API
+
+The <video> element
+
+Important features of <video> element:
+	-src: works the same way for <img> tag
+	
+	-controls: required to get the video embedded on the webpage
+	
+	-paragraphs: any <p> inside the the <video> element will be
+	considered fallback content, if the content does not support
+	the browser (typically found in older browsers...)
+
+
+Using multiple source formats to improve compatibility
+-Formats like MP3, MP4, and WebM are called container formats
+-Container formats define a structure in which the audio and video are stored
+-A WebM file contains a main video track, an alternate angle track, audio for both
+English and Spanish, additon to audio and english commentary track
+-Audio tracks are encoded using an audio codec, while video tracks are coded using a video codec
+-Using the <source> tag allows us to use multiple sources for the videos to aid with compatibility
+across devices
+-Each source also has a type attribute, its optional but it is highly recommended, basically it can
+allow computers to skip the type if it is not supported
+
+
+
+Other <video> features
+-Width and height
+-Autoplay: makes the audio and video start playing right away
+-Loop: makes the video play again when the video finishes
+-Muted: Causes media to play with sound off
+-Poster: The URL of an image which will be displayed before the video is played, intended for
+splash screens or advertising screens
+-Preload: used for buffering large files, takes the three values: none, auto, metadata
+
+
+
+The <audio> element
+-The <audio> element works very similar to <video> element
+-The <audio> element does not support the width and height attributes
+-The <audio> does not display the poster attribute
+
+
+Displaying video text tracks
+-Need to use the WebVTT file format and use the <track> element
+-Subtitles: Translations of foreign material
+-Captions: Synchronized transcriptions of dialog or descriptions of significant sounds
+-timed descriptions: Text which should be spoken by the media player in order to describe 
+important visuals to blind or otherwise visually impaired users.
+	-Example of how a VTT file should look:
+WEBVTT
+
+1
+00:00:22.230 --> 00:00:24.606
+This is the first subtitle.
+
+2
+00:00:30.739 --> 00:00:34.074
+This is the second.
+
+  ...
+
+-To use a VTT file, use the <track> element, the kind attribute is used to specify whether
+cues are subtitles, captions, or descriptions
