@@ -1,0 +1,15 @@
+What is CSS
+-The browser will style HTML documents using an internal stylesheet
+-An example of this is that links are highlighted and underlined
+-CSS allows flexibility with styling websites
+
+What is CSS for?
+-Document is usually a text file structured using a markup language
+-Presenting a document to user means converting it into a form usable by your audience
+
+CSS syntax
+-CSS is a rule based language, meaning you can place certain rules into elements or groups of
+elements
+-The rule opens up with a selector, it selects the HTML element that is going to be styled
+-Next you will have a set of curly braces, inside those will be one or more declarations, which make up
+of the property and value
