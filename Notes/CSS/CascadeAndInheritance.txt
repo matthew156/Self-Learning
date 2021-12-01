@@ -1,0 +1,28 @@
+Cascade and Inheritance
+
+Conflicting rules
+-CSS stands for Cascading Style Sheets
+-The concept of inheritance means that some CSS properties by default inherit values set on
+the current elements parent element, and some don't
+
+
+The Cascade
+-Cascade means that the order of rules of CSS matter
+-CSS will choose the last selector if the specificity is the same
+
+Specificity
+-Specificity is how the browser decides which rule applies when there are multiple that have
+different selectors but could still applyto the same element 
+-A class is more specific than an element selector so it gets priority
+
+Inheritance
+-Element can inherit from the parents but not the grandparents
+	Tools to control inheritance:
+	-Inherit
+	-initial
+	-unset
+	-revert
+
+
+!important
+-you can use !important to over write specificity rules

@@ -1,0 +1,35 @@
+How CSS is Structured
+
+-CSS has rules to control which selector is stronger in the event of a conflict
+-The cascade rule states that the lower select from two selectors will be selected
+-The specificity rule states that a class will prevail  over a general selector due to 
+specificity. ID's have the highest specificity
+-You can use the calc() function to do simiple math within CSS
+-Transform can have a value of rotate(0.8turn)
+
+@rules
+-provides instruction for what CSS should perform or how it should behave
+-A common @rule is @media, which is used to create media queries
+
+
+Shorthands
+-Properties like font, background, padding, border, and margin are called shorthand properties
+	Example:
+	padding: 10px 15px 15px 5px
+		
+		is the same as...
+	
+	padding-top:10px
+	padding-right: 15px
+	padding-bottom: 15px
+	padding-left: 5px
+
+
+
+Comments
+-With any coding work it is best practice to write comment along with CSS, it helps others
+understand the code
+
+
+White space
+-Browsers ignore white space within CSS
